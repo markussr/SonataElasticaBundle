@@ -21,6 +21,7 @@ class ElasticaDatagrid extends Datagrid
 
     /**
      * @param ProxyQueryInterface        $query
+     * @param AbstractType               $searchForm
      * @param FieldDescriptionCollection $columns
      * @param PagerInterface             $pager
      * @param FormBuilder                $formBuilder
